@@ -7,7 +7,7 @@
 \textclass article
 \use_default_options true
 \maintain_unincluded_children false
-\language english
+\language naustrian
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -27,6 +27,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -57,7 +58,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\quotes_language german
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -72,6 +73,23 @@
 
 \begin_layout Title
 Diskrete Mathematik Übungen mit Lösungen (Wintersemester 2017/18)
+\end_layout
+
+\begin_layout Section
+Einführung
+\end_layout
+
+\begin_layout Standard
+Dieses Buch ist eine Sammlung von Lösungen zum Kurs 
+\begin_inset Quotes gld
+\end_inset
+
+Diskrete Mathematik
+\begin_inset Quotes grd
+\end_inset
+
+.
+ Die Lösungen wurden von den StudentInnen selber ausgearbeitet.
 \end_layout
 
 \end_body
