@@ -5,6 +5,74 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\usepackage[german]{babel}
+\usepackage{bibgerm}
+%\usepackage[mathletters]{ucs}
+\newcommand{\gf}[1]{\glqq{#1}\grqq}
+\usepackage{a4}
+\usepackage{siunitx}
+\usepackage{versions}
+\usepackage{enumitem}
+\excludeversion{solution}
+%\newenvironment{solution}{\par\textbf{Lösung:\\}}{\hfill $□$}
+\addtolength{\topmargin}{-30pt} 
+\addtolength{\textheight}{-1cm}
+\newcommand{\R}{{\Bbb R}} 
+\newcommand{\N}{\Bbb{ N}} 
+\newcommand{\Z}{\Bbb{ Z}} 
+\newcommand{\C}{\Bbb{ C}} 
+\newcommand{\Q}{\Bbb{ Q}}
+\newcommand{\ot}{\leftarrow}  
+\newcommand{\VecFour}[4]{\left(
+    \begin{array}{c} 
+        {#1} \\ {#2} \\ {#3} \\ {#4} 
+    \end{array} 
+    \right) }
+\newcommand{\VecTwoSmall}[2]{ 
+   \left( 
+   \begin{smallmatrix} 
+      #1 \\ #2 
+   \end{smallmatrix} 
+   \right) 
+   }  
+\newcommand{\VecThreeSmall}[3]{ 
+   \left( 
+   \begin{smallmatrix} 
+      #1 \\ #2 \\ #3
+   \end{smallmatrix} 
+   \right) 
+   }  
+\renewcommand{\NG}[2]{\mbox{}_{#1} {#2}} 
+\newcommand{\mpol}[3]{\hat{#1}}
+\newcommand{\Knn}{K^{n \times n}}
+
+\usepackage{graphicx}
+
+
+
+% fuer alte Blaetter
+
+\newcommand{\norm}[1]{\|#1\|}
+\newcommand{\ip}[2]{\langle#1\,,\,#2\rangle}
+\newcommand{\dt}[1]{\left|#1\right|}
+\newcommand{\abs}[1]{|#1|}
+
+\newcommand{\vv}[2]{\begin{pmatrix}
+    #1\\#2
+  \end{pmatrix}}
+\newcommand{\vvv}[3]{\begin{pmatrix}
+    #1\\#2\\#3
+  \end{pmatrix}}
+\newcommand{\vvvv}[4]{\begin{pmatrix}
+    #1\\#2\\#3\\#4
+  \end{pmatrix}}
+\newcommand{\VecThree}[3]{\vvv{#1}{#2}{#3}}
+\newcommand{\VecTwo}[2]{\vv{#1}{#2}}
+\newcommand{\veca}{\vec a}
+\newcommand{\vecb}{\vec b}
+\newcommand{\vecc}{\vec c}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language naustrian
@@ -96,5 +164,1549 @@ Diskrete Mathematik
 Die Beispiele
 \end_layout
 
+\begin_layout Enumerate
+
+\lang german
+(Verschiedene Interpretationen natürlicher Sprache) Eine Familie hat vier
+ Kinder, zwei Söhne und zwei Töchter, die alle verschieden groß sind.
+ Wir vergleichen nun die Körpergröße der Kinder.
+ Der Satz 
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\lang german
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gf{
+\end_layout
+
+\end_inset
+
+Die Brüder sind größer als ihre Schwestern.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+kann einige mögliche Bedeutungen haben, darunter zum Beispiel: 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:a"
+
+\end_inset
+
+ Der größere Sohn ist größer als die größere der beiden Schwestern.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:b"
+
+\end_inset
+
+ Jeder Sohn ist größer als alle Schwestern.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:c"
+
+\end_inset
+
+ Jede Tochter ist kleiner als zumindest einer ihrer Brüder.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:d"
+
+\end_inset
+
+ Im Mittel sind die Brüder größer als die Schwestern.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Zwischen diesen vier Interpretationen gibt es einige Zusammenhänge:
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+ gilt, so gilt auch
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+.
+ (
+\emph on
+Begründung:
+\emph default
+ Wir nehmen an, dass
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+ gilt.
+ Dann ist jeder Sohn größer als alle Schwestern, also ist auch der größere
+ Sohn größer als alle Schwestern, und somit größer als die größere der beiden
+ Schwestern.) Wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+ gilt, so muss deswegen
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+ nicht gelten.
+ (
+\emph on
+Gegenbeispiel:
+\emph default
+ Söhne 
+\begin_inset Formula $170\mathrm{cm}$
+\end_inset
+
+ und 
+\begin_inset Formula $160\mathrm{cm}$
+\end_inset
+
+, Töchter 
+\begin_inset Formula $165\mathrm{cm}$
+\end_inset
+
+ und 
+\begin_inset Formula $150\mathrm{cm}$
+\end_inset
+
+.)
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Finden Sie für jede der folgenden Behauptungen heraus, ob sie stets gilt
+ oder ein Gegenbeispiel zulässt, und geben Sie eine Begründung oder ein
+ Gegenbeispiel an.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\lang german
+Wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:d"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:d"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:d"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:d"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:d"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:d"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+.
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Wir betrachten folgende Eigenschaften eines Vierecks 
+\begin_inset Formula $V$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "it:a"
+
+\end_inset
+
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ hat mindestens einen stumpfen Winkel.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "it:b"
+
+\end_inset
+
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ hat mindestens drei spitze Winkel.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "it:c"
+
+\end_inset
+
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ hat keinen rechten Winkel.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Die Behauptung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gf{
+\end_layout
+
+\end_inset
+
+wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+, dann 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ gilt immer, da ein Viereck Winkelsumme 
+\begin_inset Formula $360^{\circ}$
+\end_inset
+
+ hat und somit zumindest ein Winkel mindestens 
+\begin_inset Formula $90^{\circ}$
+\end_inset
+
+ sein muss.
+ Da kein Winkel genau 
+\begin_inset Formula $90^{\circ}$
+\end_inset
+
+ hat, muss dieser Winkel stumpf sein.
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Die Behauptung 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gf{
+\end_layout
+
+\end_inset
+
+wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+, dann 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ gilt nicht für jedes Viereck, da es ein Viereck gibt, das sowohl einen
+ stumpfen als auch einen rechten Winkel besitzt.
+ Zeichnen Sie ein solches Viereck, und finden Sie heraus, welcher der Zusammenhä
+nge 
+\end_layout
+
+\begin_layout Quote
+
+\lang german
+wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:a"
+
+\end_inset
+
+;
+\begin_inset space \thinspace{}
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ wenn
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:c"
+
+\end_inset
+
+, dann
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:b"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+für jedes Viereck gilt, und geben Sie jeweils eine Begründung oder ein Gegenbeis
+piel an.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Sei 
+\begin_inset Formula $D$
+\end_inset
+
+ ein Dreieck.
+ Welche der folgenden fünf Bedingungen sind hinreichend dafür, dass 
+\begin_inset Formula $D$
+\end_inset
+
+ gleichschenkelig ist? 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ ist gleichseitig.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ hat zwei gleiche Winkel.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ ist rechtwinkelig.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ hat zwei gleiche Winkel, die beide kleiner als 
+\begin_inset Formula $60^{\circ}$
+\end_inset
+
+ sind.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ besitzt zwei Seiten, für die der Quotient ihrer Längen ganzzahlig ist.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Finden Sie für die Bedingungen, die hinreichend für die Gleichschenkeligkeit
+ des Dreiecks sind, eine Begründung für die Aussage 
+\end_layout
+
+\begin_layout Quote
+
+\lang german
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gf{
+\end_layout
+
+\end_inset
+
+Jedes Dreieck mit der Bedingung \SpecialChar ldots
+ist gleichschenkelig
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+und finden Sie für die Bedingungen, die nicht hinreichend für die Gleichschenkel
+igkeit des Dreiecks sind, ein Dreieck 
+\begin_inset Formula $D$
+\end_inset
+
+, das die Bedingung erfüllt, aber nicht gleichschenkelig ist.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Sei 
+\begin_inset Formula $D$
+\end_inset
+
+ ein Dreieck.
+ Welche der folgenden fünf Bedingungen sind notwendig dafür, dass 
+\begin_inset Formula $D$
+\end_inset
+
+ gleichschenkelig ist? 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ ist gleichseitig.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ hat zwei gleiche Winkel.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ ist rechtwinkelig.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ hat zwei gleiche Winkel, die beide kleiner als 
+\begin_inset Formula $60^{\circ}$
+\end_inset
+
+ sind.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $D$
+\end_inset
+
+ besitzt zwei Seiten, für die der Quotient ihrer Längen ganzzahlig ist.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Finden Sie für die Bedingungen, die notwendig für die Gleichschenkeligkeit
+ des Dreiecks sind, eine Begründung für die Aussage 
+\end_layout
+
+\begin_layout Quote
+
+\lang german
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gf{
+\end_layout
+
+\end_inset
+
+Jedes gleichschenkelige Dreieck erfüllt die Bedingung \SpecialChar ldots
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+und finden Sie für die Bedingungen, die nicht notwendig für die Gleichschenkelig
+keit des Dreiecks sind, ein Dreieck 
+\begin_inset Formula $D$
+\end_inset
+
+, das gleichschenkelig ist und die Bedingung nicht erfüllt.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Finden Sie die Negation folgender Aussagen, und geben Sie diese Negation
+ in möglichst einfachen Worten wieder.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+Er ist reich und schön.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Alle Männer tragen Hüte.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Alle Männer tragen Hüte und Badeschlapfen.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Alle Männer tragen Hüte oder Badeschlapfen.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Alle 
+\begin_inset Formula $x,y\in\R$
+\end_inset
+
+, die die Gleichung 
+\begin_inset Formula $x+y=z$
+\end_inset
+
+ erfüllen, erfüllen auch die Gleichung 
+\begin_inset Formula $x^{3}+y^{3}=z$
+\end_inset
+
+.
+ 
+\emph on
+Hinweis:
+\emph default
+ Das stimmt für manche 
+\begin_inset Formula $z$
+\end_inset
+
+, für andere nicht.
+ Hier geht es nicht darum, diese 
+\begin_inset Formula $z$
+\end_inset
+
+ zu bestimmen, sondern darum, die Negation zu finden.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Für alle 
+\begin_inset Formula $x,y\in\R$
+\end_inset
+
+ mit 
+\begin_inset Formula $xy+3x=0$
+\end_inset
+
+ und 
+\begin_inset Formula $x^{3}y+3x^{3}+xy-y+2=0$
+\end_inset
+
+ gilt auch 
+\begin_inset Formula $y=2$
+\end_inset
+
+ oder 
+\begin_inset Formula $y=-3$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Sei 
+\begin_inset Formula $V$
+\end_inset
+
+ ein Viereck.
+ Von den Bedingungen 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:h1"
+
+\end_inset
+
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ hat drei gleichlange Seiten 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:h2"
+
+\end_inset
+
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ hat zwei verschieden lange Seiten 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:h3"
+
+\end_inset
+
+ 
+\begin_inset Formula $V$
+\end_inset
+
+ hat drei gleiche Winkel 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+ist keine hinreichend für eine der anderen Bedingungen.
+ Zeigen Sie das, indem Sie jeweils ein Viereck zeichnen, das 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h1"
+
+\end_inset
+
+ erfüllt und 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h2"
+
+\end_inset
+
+ nicht erfüllt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h1"
+
+\end_inset
+
+ erfüllt und 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h3"
+
+\end_inset
+
+ nicht erfüllt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h2"
+
+\end_inset
+
+ erfüllt und 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h1"
+
+\end_inset
+
+ nicht erfüllt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h2"
+
+\end_inset
+
+ erfüllt und 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h3"
+
+\end_inset
+
+ nicht erfüllt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h3"
+
+\end_inset
+
+ erfüllt und 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h1"
+
+\end_inset
+
+ nicht erfüllt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h3"
+
+\end_inset
+
+ erfüllt und 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "it:h2"
+
+\end_inset
+
+ nicht erfüllt.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Finden Sie die Negation der folgenden Behauptungen, und geben Sie diese
+ möglichst einfach wieder.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+Es gibt einen Punkt, der weder auf 
+\begin_inset Formula $p$
+\end_inset
+
+ noch auf 
+\begin_inset Formula $q$
+\end_inset
+
+ liegt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Für jede reelle Zahl 
+\begin_inset Formula $x$
+\end_inset
+
+ gilt 
+\begin_inset Formula $f(x)\ge5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Es gibt einen Kreis, der die Geraden 
+\begin_inset Formula $p$
+\end_inset
+
+ und 
+\begin_inset Formula $q$
+\end_inset
+
+ berührt, aber die Gerade 
+\begin_inset Formula $r$
+\end_inset
+
+ nicht.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Die Gleichung 
+\begin_inset Formula $(*)$
+\end_inset
+
+ hat genau drei Lösungen.
+ 
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
