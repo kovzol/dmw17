@@ -173,8 +173,6 @@ Die Beispiele
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 (Verschiedene Interpretationen natürlicher Sprache) Eine Familie hat vier
  Kinder, zwei Söhne und zwei Töchter, die alle verschieden groß sind.
  Wir vergleichen nun die Körpergröße der Kinder.
@@ -183,8 +181,6 @@ Die Beispiele
 
 \begin_deeper
 \begin_layout Quote
-
-\lang german
 \begin_inset ERT
 status collapsed
 
@@ -212,14 +208,10 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 kann einige mögliche Bedeutungen haben, darunter zum Beispiel: 
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:a"
@@ -231,8 +223,6 @@ name "it:a"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:b"
@@ -244,8 +234,6 @@ name "it:b"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:c"
@@ -257,8 +245,6 @@ name "it:c"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:d"
@@ -270,14 +256,10 @@ name "it:d"
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Zwischen diesen vier Interpretationen gibt es einige Zusammenhänge:
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Wenn
 \begin_inset space ~
 \end_inset
@@ -366,8 +348,6 @@ Gegenbeispiel:
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Finden Sie für jede der folgenden Behauptungen heraus, ob sie stets gilt
  oder ein Gegenbeispiel zulässt, und geben Sie eine Begründung oder ein
  Gegenbeispiel an.
@@ -375,8 +355,6 @@ Finden Sie für jede der folgenden Behauptungen heraus, ob sie stets gilt
 \end_layout
 
 \begin_layout Quote
-
-\lang german
 Wenn
 \begin_inset space ~
 \end_inset
@@ -742,8 +720,6 @@ reference "it:c"
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Wir betrachten folgende Eigenschaften eines Vierecks 
 \begin_inset Formula $V$
 \end_inset
@@ -754,8 +730,6 @@ Wir betrachten folgende Eigenschaften eines Vierecks
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset space ~
 \end_inset
 
@@ -775,8 +749,6 @@ name "it:a"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset space ~
 \end_inset
 
@@ -796,8 +768,6 @@ name "it:b"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset space ~
 \end_inset
 
@@ -817,8 +787,6 @@ name "it:c"
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Die Behauptung 
 \begin_inset ERT
 status collapsed
@@ -882,8 +850,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Die Behauptung 
 \begin_inset ERT
 status collapsed
@@ -937,8 +903,6 @@ nge
 \end_layout
 
 \begin_layout Quote
-
-\lang german
 wenn
 \begin_inset space ~
 \end_inset
@@ -1115,16 +1079,12 @@ reference "it:b"
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 für jedes Viereck gilt, und geben Sie jeweils eine Begründung oder ein Gegenbeis
 piel an.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Sei 
 \begin_inset Formula $D$
 \end_inset
@@ -1139,8 +1099,6 @@ Sei
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1149,8 +1107,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1159,8 +1115,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1169,8 +1123,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1183,8 +1135,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1193,15 +1143,11 @@ Sei
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Finden Sie für die Bedingungen, die hinreichend für die Gleichschenkeligkeit
  des Dreiecks sind, eine Begründung für die Aussage 
 \end_layout
 
 \begin_layout Quote
-
-\lang german
 \begin_inset ERT
 status collapsed
 
@@ -1230,8 +1176,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 und finden Sie für die Bedingungen, die nicht hinreichend für die Gleichschenkel
 igkeit des Dreiecks sind, ein Dreieck 
 \begin_inset Formula $D$
@@ -1242,8 +1186,6 @@ igkeit des Dreiecks sind, ein Dreieck
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Sei 
 \begin_inset Formula $D$
 \end_inset
@@ -1258,8 +1200,6 @@ Sei
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1268,8 +1208,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1278,8 +1216,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1288,8 +1224,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1302,8 +1236,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $D$
 \end_inset
 
@@ -1312,15 +1244,11 @@ Sei
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Finden Sie für die Bedingungen, die notwendig für die Gleichschenkeligkeit
  des Dreiecks sind, eine Begründung für die Aussage 
 \end_layout
 
 \begin_layout Quote
-
-\lang german
 \begin_inset ERT
 status collapsed
 
@@ -1349,8 +1277,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 und finden Sie für die Bedingungen, die nicht notwendig für die Gleichschenkelig
 keit des Dreiecks sind, ein Dreieck 
 \begin_inset Formula $D$
@@ -1361,8 +1287,6 @@ keit des Dreiecks sind, ein Dreieck
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Finden Sie die Negation folgender Aussagen, und geben Sie diese Negation
  in möglichst einfachen Worten wieder.
  
@@ -1370,36 +1294,26 @@ Finden Sie die Negation folgender Aussagen, und geben Sie diese Negation
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 Er ist reich und schön.
  
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Alle Männer tragen Hüte.
  
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Alle Männer tragen Hüte und Badeschlapfen.
  
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Alle Männer tragen Hüte oder Badeschlapfen.
  
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Alle 
 \begin_inset Formula $x,y\in\R$
 \end_inset
@@ -1431,8 +1345,6 @@ Hinweis:
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Für alle 
 \begin_inset Formula $x,y\in\R$
 \end_inset
@@ -1459,8 +1371,6 @@ Für alle
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Sei 
 \begin_inset Formula $V$
 \end_inset
@@ -1471,8 +1381,6 @@ Sei
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:h1"
@@ -1487,8 +1395,6 @@ name "it:h1"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:h2"
@@ -1503,8 +1409,6 @@ name "it:h2"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:h3"
@@ -1519,15 +1423,11 @@ name "it:h3"
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 ist keine hinreichend für eine der anderen Bedingungen.
  Zeigen Sie das, indem Sie jeweils ein Viereck zeichnen, das 
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "it:h1"
@@ -1546,8 +1446,6 @@ reference "it:h2"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "it:h1"
@@ -1566,8 +1464,6 @@ reference "it:h3"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "it:h2"
@@ -1586,8 +1482,6 @@ reference "it:h1"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "it:h2"
@@ -1606,8 +1500,6 @@ reference "it:h3"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "it:h3"
@@ -1626,8 +1518,6 @@ reference "it:h1"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "it:h3"
@@ -1647,8 +1537,6 @@ reference "it:h2"
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Finden Sie die Negation der folgenden Behauptungen, und geben Sie diese
  möglichst einfach wieder.
  
@@ -1656,8 +1544,6 @@ Finden Sie die Negation der folgenden Behauptungen, und geben Sie diese
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 Es gibt einen Punkt, der weder auf 
 \begin_inset Formula $p$
 \end_inset
@@ -1671,8 +1557,6 @@ Es gibt einen Punkt, der weder auf
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Für jede reelle Zahl 
 \begin_inset Formula $x$
 \end_inset
@@ -1686,8 +1570,6 @@ Für jede reelle Zahl
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Es gibt einen Kreis, der die Geraden 
 \begin_inset Formula $p$
 \end_inset
@@ -1705,8 +1587,6 @@ Es gibt einen Kreis, der die Geraden
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Die Gleichung 
 \begin_inset Formula $(*)$
 \end_inset
@@ -1735,7 +1615,7 @@ setcounter{enumi}{41}
 \end_inset
 
 Für 
-\begin_inset Formula $m\thinspace\epsilon\mathbb{\thinspace N}_{0}$
+\begin_inset Formula $m\thinspace\in\mathbb{\thinspace N}_{0}$
 \end_inset
 
  sei 
@@ -1744,11 +1624,14 @@ Für
 
  die 
 \shape italic
-m-te
+m
+\emph on
+-te
 \shape default
+\emph default
  Fermat Zahl.
  Zeigen Sie durch Induktion, dass für alle 
-\begin_inset Formula $m\,\epsilon\,\mathbb{N}$
+\begin_inset Formula $m\,\in\,\mathbb{N}$
 \end_inset
 
  gilt
@@ -1772,17 +1655,17 @@ Bestimmen Sie für
 \end_inset
 
  jeweils 
-\begin_inset Formula $ggT(a,n),$
+\begin_inset Formula $\mathrm{ggT}(a,n),$
 \end_inset
 
  und zwei ganze Zahlen 
-\begin_inset Formula $u,\thinspace v\thinspace\epsilon\thinspace\mathbb{Z},$
+\begin_inset Formula $u,\thinspace v\thinspace\in\thinspace\mathbb{Z},$
 \end_inset
 
  sodass 
 \begin_inset Formula 
 \[
-ggT(a,b)=u\cdot a+v\cdot b.
+\mathrm{ggT}(a,b)=u\cdot a+v\cdot b.
 \]
 
 \end_inset
@@ -1814,11 +1697,11 @@ ggT(a,b)=u\cdot a+v\cdot b.
 \end_deeper
 \begin_layout Enumerate
 Seien 
-\begin_inset Formula $a,b,x\thinspace\epsilon\thinspace\mathbb{N}$
+\begin_inset Formula $a,b,x\thinspace\in\thinspace\mathbb{N}$
 \end_inset
 
  und 
-\begin_inset Formula $u,v\thinspace\epsilon\thinspace\mathbb{Z}$
+\begin_inset Formula $u,v\thinspace\in\thinspace\mathbb{Z}$
 \end_inset
 
  so, dass 
@@ -1843,7 +1726,7 @@ Zeigen Sie: Wenn
 \end_inset
 
  ist, so gilt 
-\begin_inset Formula $x=ggT(a,b).$
+\begin_inset Formula $x=\mathrm{ggT}(a,b).$
 \end_inset
 
 
@@ -1852,11 +1735,11 @@ Zeigen Sie: Wenn
 \end_deeper
 \begin_layout Enumerate
 Seien 
-\begin_inset Formula $a,b\thinspace\epsilon\thinspace\mathbb{N}$
+\begin_inset Formula $a,b\thinspace\in\thinspace\mathbb{N}$
 \end_inset
 
 , 
-\begin_inset Formula $y\thinspace\epsilon\thinspace\mathbb{Z}$
+\begin_inset Formula $y\thinspace\in\thinspace\mathbb{Z}$
 \end_inset
 
  so, dass 
@@ -1864,7 +1747,7 @@ Seien
 \end_inset
 
  und 
-\begin_inset Formula $ggT(a,b)=1.$
+\begin_inset Formula $\mathrm{ggT}(a,b)=1.$
 \end_inset
 
  Zeigen Sie (ohne Primfaktorenzerlegung): 
@@ -1876,17 +1759,17 @@ Seien
 
 \begin_layout Enumerate
 Seien 
-\begin_inset Formula $a,b\thinspace\epsilon\thinspace\mathbb{Z}$
+\begin_inset Formula $a,b\thinspace\in\thinspace\mathbb{Z}$
 \end_inset
 
  (nicht beide 0), und sei 
-\begin_inset Formula $k\thinspace\epsilon\thinspace\mathbb{N}.$
+\begin_inset Formula $k\thinspace\in\thinspace\mathbb{N}.$
 \end_inset
 
  Zeigen Sie 
 \begin_inset Formula 
 \[
-ggT(ka,kb)=k\cdot ggT(a,b)
+\mathrm{ggT}(ka,kb)=k\cdot\mathrm{ggT}(a,b)
 \]
 
 \end_inset
@@ -1897,11 +1780,11 @@ ggT(ka,kb)=k\cdot ggT(a,b)
 \begin_deeper
 \begin_layout Standard
 indem Sie 
-\begin_inset Formula $ggT(ka,kb)\mid k\cdot ggT(a,b)$
+\begin_inset Formula $\mathrm{ggT}(ka,kb)\mid k\cdot\mathrm{ggT}(a,b)$
 \end_inset
 
  und 
-\begin_inset Formula $k\cdot ggT(a,b)\mid ggT(ka,kb)$
+\begin_inset Formula $k\cdot\mathrm{ggT}(a,b)\mid\mathrm{ggT}(ka,kb)$
 \end_inset
 
  begründen.
@@ -1910,7 +1793,7 @@ indem Sie
 \end_deeper
 \begin_layout Enumerate
 Seien 
-\begin_inset Formula $a,b,c\thinspace\epsilon\thinspace\mathbb{N}$
+\begin_inset Formula $a,b,c\thinspace\in\thinspace\mathbb{N}$
 \end_inset
 
  so, dass 
@@ -1918,11 +1801,11 @@ Seien
 \end_inset
 
  Zeigen Sie 
-\begin_inset Formula $ggT(a,c)\mid ggT(b,c)$
+\begin_inset Formula $\mathrm{ggT}(a,c)\mid\mathrm{ggT}(b,c)$
 \end_inset
 
  und 
-\begin_inset Formula $kgV(a,c)\mid kgV(b,c).$
+\begin_inset Formula $\mathrm{kgV}(a,c)\mid\mathrm{kgV}(b,c).$
 \end_inset
 
 
@@ -1935,7 +1818,7 @@ Sei
 
  eine reelle Zahl.
  Zeigne Sie durch Induktion, dass für alle 
-\begin_inset Formula $n\thinspace\epsilon\thinspace\mathbb{N}$
+\begin_inset Formula $n\thinspace\in\thinspace\mathbb{N}$
 \end_inset
 
  gilt: 
@@ -1951,11 +1834,7 @@ Sei
 
 \begin_layout Enumerate
 Sei 
-\begin_inset Formula $a,n\thinspace\epsilon\mathbb{\thinspace N}\setminus\left\{ 1\right\} .$
-\end_inset
-
-
-\begin_inset space \thinspace{}
+\begin_inset Formula $a,n\thinspace\in\mathbb{\thinspace N}\setminus\left\{ 1\right\} .$
 \end_inset
 
  Zeigen Sie, falls 
@@ -1971,11 +1850,7 @@ Sei
 \end_inset
 
  eine Primzahl.
- 
-\begin_inset Formula $(Hinweis:\thinspace Verwenden\thinspace Sie\thinspace die\thinspace Formel\thinspace aus\thinspace dem\thinspace letzten\thinspace Beispiel.)$
-\end_inset
-
-
+ (Hinweis: Verwenden Sie die Formel aus dem letzten Beispiel.) 
 \end_layout
 
 \end_body
