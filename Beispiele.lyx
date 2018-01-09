@@ -8,6 +8,7 @@
 \begin_preamble
 \usepackage[german]{babel}
 \usepackage{bibgerm}
+\usepackage{amssymb}
 %\usepackage[mathletters]{ucs}
 \newcommand{\gf}[1]{\glqq{#1}\grqq}
 \usepackage{a4}
@@ -15,10 +16,9 @@
 \usepackage{versions}
 \usepackage{enumitem}
 \excludeversion{solution}
-%\newenvironment{solution}{\par\textbf{Lösung:\\}}{\hfill $□$}
 \addtolength{\topmargin}{-30pt} 
 \addtolength{\textheight}{-1cm}
-\newcommand{\R}{{\Bbb R}} 
+\newcommand{\R}{\Bbb{ R}} 
 \newcommand{\N}{\Bbb{ N}} 
 \newcommand{\Z}{\Bbb{ Z}} 
 \newcommand{\C}{\Bbb{ C}} 
@@ -162,6 +162,14 @@ Diskrete Mathematik
 
 \begin_layout Section
 Die Beispiele
+\end_layout
+
+\begin_layout Subsection
+1.
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Enumerate
