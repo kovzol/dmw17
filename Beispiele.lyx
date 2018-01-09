@@ -8,6 +8,7 @@
 \begin_preamble
 \usepackage[german]{babel}
 \usepackage{bibgerm}
+\usepackage{amssymb}
 %\usepackage[mathletters]{ucs}
 \newcommand{\gf}[1]{\glqq{#1}\grqq}
 \usepackage{a4}
@@ -15,10 +16,9 @@
 \usepackage{versions}
 \usepackage{enumitem}
 \excludeversion{solution}
-%\newenvironment{solution}{\par\textbf{Lösung:\\}}{\hfill $□$}
 \addtolength{\topmargin}{-30pt} 
 \addtolength{\textheight}{-1cm}
-\newcommand{\R}{{\Bbb R}} 
+\newcommand{\R}{\Bbb{ R}} 
 \newcommand{\N}{\Bbb{ N}} 
 \newcommand{\Z}{\Bbb{ Z}} 
 \newcommand{\C}{\Bbb{ C}} 
@@ -162,6 +162,14 @@ Diskrete Mathematik
 
 \begin_layout Section
 Die Beispiele
+\end_layout
+
+\begin_layout Subsection
+1.
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Enumerate
@@ -1708,5 +1716,267 @@ Die Gleichung
 \end_layout
 
 \end_deeper
+\begin_layout Subsection*
+6.
+ Übungsblatt
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[41.]
+\backslash
+setcounter{enumi}{41}
+\end_layout
+
+\end_inset
+
+Für 
+\begin_inset Formula $m\thinspace\epsilon\mathbb{\thinspace N}_{0}$
+\end_inset
+
+ sei 
+\begin_inset Formula $F_{m}:=2^{2^{m}}+1$
+\end_inset
+
+ die 
+\shape italic
+m-te
+\shape default
+ Fermat Zahl.
+ Zeigen Sie durch Induktion, dass für alle 
+\begin_inset Formula $m\,\epsilon\,\mathbb{N}$
+\end_inset
+
+ gilt
+\begin_inset Formula 
+\[
+\stackrel[i=0]{m-1}{\prod}F_{i}=F_{m}-2.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Bestimmen Sie für 
+\begin_inset Formula $a$
+\end_inset
+
+ und 
+\begin_inset Formula $b$
+\end_inset
+
+ jeweils 
+\begin_inset Formula $ggT(a,n),$
+\end_inset
+
+ und zwei ganze Zahlen 
+\begin_inset Formula $u,\thinspace v\thinspace\epsilon\thinspace\mathbb{Z},$
+\end_inset
+
+ sodass 
+\begin_inset Formula 
+\[
+ggT(a,b)=u\cdot a+v\cdot b.
+\]
+
+\end_inset
+
+(a) 
+\begin_inset Formula $a=254,\thinspace b=120$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(b) 
+\begin_inset Formula $a=71,\thinspace b=79$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(c) 
+\begin_inset Formula $a=610,\thinspace b=987.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $a,b,x\thinspace\epsilon\thinspace\mathbb{N}$
+\end_inset
+
+ und 
+\begin_inset Formula $u,v\thinspace\epsilon\thinspace\mathbb{Z}$
+\end_inset
+
+ so, dass 
+\begin_inset Formula 
+\[
+x=ua+vb.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Zeigen Sie: Wenn 
+\begin_inset Formula $x$
+\end_inset
+
+ sowohl ein Teil von a als auch von 
+\begin_inset Formula $b$
+\end_inset
+
+ ist, so gilt 
+\begin_inset Formula $x=ggT(a,b).$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $a,b\thinspace\epsilon\thinspace\mathbb{N}$
+\end_inset
+
+, 
+\begin_inset Formula $y\thinspace\epsilon\thinspace\mathbb{Z}$
+\end_inset
+
+ so, dass 
+\begin_inset Formula $a\mid y,\thinspace b\mid y$
+\end_inset
+
+ und 
+\begin_inset Formula $ggT(a,b)=1.$
+\end_inset
+
+ Zeigen Sie (ohne Primfaktorenzerlegung): 
+\begin_inset Formula $a\cdot b\mid y.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $a,b\thinspace\epsilon\thinspace\mathbb{Z}$
+\end_inset
+
+ (nicht beide 0), und sei 
+\begin_inset Formula $k\thinspace\epsilon\thinspace\mathbb{N}.$
+\end_inset
+
+ Zeigen Sie 
+\begin_inset Formula 
+\[
+ggT(ka,kb)=k\cdot ggT(a,b)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+indem Sie 
+\begin_inset Formula $ggT(ka,kb)\mid k\cdot ggT(a,b)$
+\end_inset
+
+ und 
+\begin_inset Formula $k\cdot ggT(a,b)\mid ggT(ka,kb)$
+\end_inset
+
+ begründen.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $a,b,c\thinspace\epsilon\thinspace\mathbb{N}$
+\end_inset
+
+ so, dass 
+\begin_inset Formula $a\mid b.$
+\end_inset
+
+ Zeigen Sie 
+\begin_inset Formula $ggT(a,c)\mid ggT(b,c)$
+\end_inset
+
+ und 
+\begin_inset Formula $kgV(a,c)\mid kgV(b,c).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Sei 
+\begin_inset Formula $q>1$
+\end_inset
+
+ eine reelle Zahl.
+ Zeigne Sie durch Induktion, dass für alle 
+\begin_inset Formula $n\thinspace\epsilon\thinspace\mathbb{N}$
+\end_inset
+
+ gilt: 
+\begin_inset Formula 
+\[
+\stackrel[k=0]{n}{\sum}q^{k}=\frac{q^{n+1}-1}{q-1}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Sei 
+\begin_inset Formula $a,n\thinspace\epsilon\mathbb{\thinspace N}\setminus\left\{ 1\right\} .$
+\end_inset
+
+
+\begin_inset space \thinspace{}
+\end_inset
+
+ Zeigen Sie, falls 
+\begin_inset Formula $a^{n}-1$
+\end_inset
+
+ eine Primzahl ist, dann ist 
+\begin_inset Formula $a=2$
+\end_inset
+
+ und 
+\begin_inset Formula $n$
+\end_inset
+
+ eine Primzahl.
+ 
+\begin_inset Formula $(Hinweis:\thinspace Verwenden\thinspace Sie\thinspace die\thinspace Formel\thinspace aus\thinspace dem\thinspace letzten\thinspace Beispiel.)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
