@@ -9,6 +9,7 @@
 \usepackage[german]{babel}
 \usepackage{bibgerm}
 \usepackage{amssymb}
+\usepackage{amsmath}
 %\usepackage[mathletters]{ucs}
 \newcommand{\gf}[1]{\glqq{#1}\grqq}
 \usepackage{a4}
@@ -1601,8 +1602,6 @@ Die Gleichung
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 \begin_inset ERT
 status open
 
@@ -1628,8 +1627,6 @@ setcounter{enumi}{24}
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang english
 \begin_inset Formula $p=\exists x\text{\in}\mathbb{R}:A(x)\vee B(x),$
 \end_inset
 
@@ -1641,8 +1638,6 @@ setcounter{enumi}{24}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 \begin_inset Formula $p=\forall x\text{\ensuremath{\in}}\mathbb{R}:A(x)\vee B(x),q=(\forall x\text{\ensuremath{\in}}\mathbb{R}:A(x))\vee(\forall x\text{\ensuremath{\in}}\mathbb{R}:B(x)).$
 \end_inset
 
@@ -1651,8 +1646,6 @@ setcounter{enumi}{24}
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang english
 Seien 
 \begin_inset Formula $A,B$
 \end_inset
@@ -1667,18 +1660,6 @@ Seien
 
  beide gelten.
  Zeigen Sie, dass 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-
 \begin_inset Formula $(\exists x\in\mathbb{R})(A(x)\wedge B(x))$
 \end_inset
 
@@ -1687,41 +1668,32 @@ Seien
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Zeigen Sie Satz 2.11 (2) (im Skriptum).
  
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Beschreiben Sie folgende Mengen formal:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang english
 Die Menge aller natürlichen Zahlen, die durch 7 teilbar sind.
 \end_layout
 
 \begin_layout Enumerate
+Die Menge aller reellen Zahlen, die größer oder gleich 
+\begin_inset Formula $-1$
+\end_inset
 
-\lang english
-Die Menge aller reellen Zahlen, die größer oder gleich -1 sind, aber kleiner
- als 15.
+ sind, aber kleiner als 15.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Die Menge aller ganzzahligen Zweierpotenzen.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Die Menge aller ganzen Zahlen, die ein Quadrat einer natürlichen Zahl sind.
 \end_layout
 
@@ -1731,24 +1703,21 @@ Wie lauten die Potenzmengen folgender Mengen:
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-(a) 
+\begin_layout Enumerate
 \begin_inset Formula $A_{1}=\left\{ 1,2,3,4\right\} $
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-(b) 
+\begin_layout Enumerate
 \begin_inset Formula $A_{2}=\left\{ 1,\left\{ 1,3\right\} ,3\right\} $
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-(c) 
+\begin_layout Enumerate
 \begin_inset Formula $A_{3}=\left\{ \left\{ 1,2,\left\{ 3\right\} \right\} \right\} $
 \end_inset
 
@@ -1785,7 +1754,7 @@ Seien
 \end_inset
 
  Mengen mit 
-\begin_inset Formula $A\cap C=\textrm{Ø}$
+\begin_inset Formula $A\cap C=\emptyset$
 \end_inset
 
  und 
@@ -1794,7 +1763,7 @@ Seien
 
 .
  Zeigen Sie, dass 
-\begin_inset Formula $C=B\diagdown A$
+\begin_inset Formula $C=B\setminus A$
 \end_inset
 
 .
@@ -1837,9 +1806,9 @@ status open
 
 \begin_layout Plain Layout
 
-[41.]
+[40.]
 \backslash
-setcounter{enumi}{41}
+setcounter{enumi}{40}
 \end_layout
 
 \end_inset
