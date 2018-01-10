@@ -1597,6 +1597,236 @@ Die Gleichung
 
 \end_deeper
 \begin_layout Subsection*
+4.Übungsblatt
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[24.]
+\backslash
+setcounter{enumi}{24}
+\end_layout
+
+\end_inset
+
+ Bestimmen Sie in den folgenden Beispielen, ob 
+\begin_inset Formula $p$
+\end_inset
+
+ und 
+\begin_inset Formula $q$
+\end_inset
+
+ für alle Aussageformen äquivalent sind.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang english
+\begin_inset Formula $p=\exists x\text{\in}\mathbb{R}:A(x)\vee B(x),$
+\end_inset
+
+ 
+\begin_inset Formula $q=(\exists x\text{\in}\mathbb{R}:A(x))\vee(\exists x\text{\in}\mathbb{R}:B(x)).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset Formula $p=\forall x\text{\ensuremath{\in}}\mathbb{R}:A(x)\vee B(x),q=(\forall x\text{\ensuremath{\in}}\mathbb{R}:A(x))\vee(\forall x\text{\ensuremath{\in}}\mathbb{R}:B(x)).$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang english
+Seien 
+\begin_inset Formula $A,B$
+\end_inset
+
+ Aussageformen, sodass 
+\begin_inset Formula $(\forall x\in\mathbb{R})(A(x)\implies B(x))$
+\end_inset
+
+ und 
+\begin_inset Formula $(\exists x\in\mathbb{R})A(x)$
+\end_inset
+
+ beide gelten.
+ Zeigen Sie, dass 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(\exists x\in\mathbb{R})(A(x)\wedge B(x))$
+\end_inset
+
+ gilt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Zeigen Sie Satz 2.11 (2) (im Skriptum).
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Beschreiben Sie folgende Mengen formal:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang english
+Die Menge aller natürlichen Zahlen, die durch 7 teilbar sind.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Die Menge aller reellen Zahlen, die größer oder gleich -1 sind, aber kleiner
+ als 15.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Die Menge aller ganzzahligen Zweierpotenzen.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Die Menge aller ganzen Zahlen, die ein Quadrat einer natürlichen Zahl sind.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Wie lauten die Potenzmengen folgender Mengen:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(a) 
+\begin_inset Formula $A_{1}=\left\{ 1,2,3,4\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(b) 
+\begin_inset Formula $A_{2}=\left\{ 1,\left\{ 1,3\right\} ,3\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(c) 
+\begin_inset Formula $A_{3}=\left\{ \left\{ 1,2,\left\{ 3\right\} \right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bilden Sie den Durchschnitt sowie die Vereinigung der Potenzmengenaus a)
+ und b).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Zeigen Sie Nummer (3) und Nummer (6) aus Satz 3.4 auf zwei verschiedene Arten,
+ vergleichbar wie der Beweis von (5) im Skriptum.
+ (Hinweis: Vergewissern Sie sich zuerst, dass für drei Aussagen 
+\begin_inset Formula $D,E,F$
+\end_inset
+
+ die Aussagen 
+\begin_inset Formula $D\vee E)\vee F$
+\end_inset
+
+ und 
+\begin_inset Formula $D\vee(E\vee F)$
+\end_inset
+
+ äquivalent sind.)
+\end_layout
+
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $A,B,C$
+\end_inset
+
+ Mengen mit 
+\begin_inset Formula $A\cap C=\textrm{Ø}$
+\end_inset
+
+ und 
+\begin_inset Formula $A\cup C=B$
+\end_inset
+
+.
+ Zeigen Sie, dass 
+\begin_inset Formula $C=B\diagdown A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Gilt für alle Mengen 
+\begin_inset Formula $A,B,$
+\end_inset
+
+dass
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(a) 
+\begin_inset Formula $P(A)\cap P(B)=P(A\cap B)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+(b) 
+\begin_inset Formula $P(A)\cup P(B)=P(A\cup B)$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
 6.
  Übungsblatt
 \end_layout
