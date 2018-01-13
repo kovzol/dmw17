@@ -1796,6 +1796,1004 @@ dass
 
 \end_deeper
 \begin_layout Subsection*
+5.
+ Übungsblatt
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Wir untersuchen in den ersten beiden Beispielen die auf Peano zurückgehende
+ Definition der Addition: für jedes 
+\begin_inset Formula $m\in\N_{0}$
+\end_inset
+
+ definieren wir eine Funktion 
+\begin_inset Formula $a_{m}:\N_{0}\to\N_{0}$
+\end_inset
+
+ rekursiv durch 
+\begin_inset Formula $a_{m}(0):=m$
+\end_inset
+
+ und 
+\begin_inset Formula 
+\begin{equation}
+a_{m}(x^{+}):=(a_{m}(x))^{+}.\label{eq:rek}
+\end{equation}
+
+\end_inset
+
+Darauf aufbauend definieren wir 
+\begin_inset Formula $x+y:=a_{x}(y)$
+\end_inset
+
+ für 
+\begin_inset Formula $x,y\in\N_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% [ref={}]
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{enumi}{31}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Wir benützen diese rekursive Definition, um 
+\begin_inset Formula $0^{++}+0^{+++}$
+\end_inset
+
+ zu berechnen.
+ Dabei sparen wir Klammern, indem wir etwa für 
+\begin_inset Formula $((x^{+})^{+})^{+}$
+\end_inset
+
+ einfacher 
+\begin_inset Formula $x^{+++}$
+\end_inset
+
+ schreiben.
+ Vervollständigen Sie dazu die folgende Berechnung und die angeführten Begründun
+gen! 
+\begin_inset Formula 
+\[
+\begin{array}{cll}
+ & 0^{++}+0^{+++}\\
+= & a_{0^{++}}(0^{+++}) & \text{wegen Definition von \ensuremath{x+y} mit \ensuremath{x=0^{++}} und \ensuremath{y=0^{+++}}}\\
+= & \big(a_{0^{++}}(0^{++})\bigr)^{+} & \text{wegen Gleichung~\eqref{eq:rek} mit \ensuremath{m=0^{++}}, \ensuremath{x=\strich{1cm}}}\\
+= & \big(a_{0^{++}}(0^{+})\bigr)^{++} & \text{wegen Gleichung~\eqref{eq:rek} mit \ensuremath{m=\strich{1cm}}, \ensuremath{x=\strich{1cm}}}\\
+= & \big(a_{0^{++}}(\strich{1cm})\bigr)^{+++} & \text{wegen \strich{1cm} mit \ensuremath{m=\strich{1cm}}, \ensuremath{x=\strich{1cm}}}\\
+= & (0^{++})^{+++} & \text{wegen \strich{3cm}}\\
+= & 0\qquad.
+\end{array}
+\]
+
+\end_inset
+
+Welche Addition haben wir dadurch ausgerechnet?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Wir beweisen nun die Assoziativität der Addition, also dass für alle 
+\begin_inset Formula $x,y,z\in\N_{0}$
+\end_inset
+
+ gilt, dass 
+\begin_inset Formula $(x+y)+z=x+(y+z)$
+\end_inset
+
+.
+ Wir zeigen dazu, dass die Menge 
+\begin_inset Formula 
+\[
+S:=\{z\in\N_{0}\mid\forall x\in\N_{0}\,\forall y\in\N_{0}:(x+y)+z=x+(y+z)\}
+\]
+
+\end_inset
+
+die Eigenschaften 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang german
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+Roman{enumii}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $0\in S$
+\end_inset
+
+ und 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $\forall z\in\N_{0}\,:\,z\in S\Rightarrow z^{+}\in S$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+erfüllt.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Verwenden Sie die Definition der Addition, um 
+\begin_inset Formula $(x+y)+0$
+\end_inset
+
+ und 
+\begin_inset Formula $x+(y+0)$
+\end_inset
+
+ zu berechnen, und schließen Sie daraus 
+\begin_inset Formula $0\in S$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Zeigen Sie 
+\begin_inset Formula $\forall z\in\N_{0}\,:\,z\in S\Rightarrow z^{+}\in S$
+\end_inset
+
+ in folgender Weise: Sei 
+\begin_inset Formula $z\in\N_{0}$
+\end_inset
+
+.
+ Wir nehmen an, dass 
+\begin_inset Formula $z\in S$
+\end_inset
+
+ gilt.
+ Das bedeutet, dass 
+\begin_inset Formula 
+\[
+\forall\strich{1cm}\forall\strich{1cm}:\strich{4cm}.
+\]
+
+\end_inset
+
+Wir wollen zeigen, dass 
+\begin_inset Formula $z^{+}\in S$
+\end_inset
+
+ gilt.
+ Dazu ist zu zeigen, dass 
+\begin_inset Formula 
+\begin{equation}
+\forall\strich{1cm}\forall\strich{1cm}:\strich{4cm}.\label{eq:indbeh}
+\end{equation}
+
+\end_inset
+
+Um 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+2cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ zu beweisen, fixieren wir 
+\begin_inset Formula $x,y\in\N_{0}$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Wegen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+7cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ gilt dann 
+\begin_inset Formula 
+\[
+(x+y)+(z^{+})=\big((x+y)+z\big)^{+}.
+\]
+
+\end_inset
+
+Da 
+\begin_inset Formula $z\in S$
+\end_inset
+
+, gilt 
+\begin_inset Formula $(x+y)+z=\strich{2cm}$
+\end_inset
+
+ und somit 
+\begin_inset Formula $\big((x+y)+z\big)^{+}=\strich{2cm}$
+\end_inset
+
+.
+ Nun verwenden wir die Definition von 
+\begin_inset Formula $+$
+\end_inset
+
+ und erhalten 
+\begin_inset Formula 
+\[
+\strich{2cm}=\big(a_{x}(y+z)\big)^{+}=\big(a_{x}(a_{y}(z))\big)^{+}.
+\]
+
+\end_inset
+
+Wegen der Definition von 
+\begin_inset Formula $a_{x}$
+\end_inset
+
+ und 
+\begin_inset Formula $a_{y}$
+\end_inset
+
+ gilt 
+\begin_inset Formula 
+\[
+\big(a_{x}(a_{y}(z))\big)^{+}=\strich{4cm}.
+\]
+
+\end_inset
+
+Wir ersetzen wieder 
+\begin_inset Formula $a_{u}(v)$
+\end_inset
+
+ wieder durch 
+\begin_inset Formula $u+v$
+\end_inset
+
+ und erhalten insgesamt, dass 
+\begin_inset Formula 
+\[
+(x+y)+(z^{+})=\strich{4cm}.
+\]
+
+\end_inset
+
+Somit gilt 
+\begin_inset Formula $\strich{2cm}\in S$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang german
+Da die Menge 
+\begin_inset Formula $S$
+\end_inset
+
+ die Eigenschaften 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+3cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ und 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+6cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ erfüllt, gilt also 
+\begin_inset Formula $S=\strich{2cm}$
+\end_inset
+
+.
+ Somit gilt für alle 
+\begin_inset Formula $x,y,z\in\N_{0}$
+\end_inset
+
+, dass 
+\begin_inset Formula 
+\[
+\strich{5cm}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang german
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+In den folgenden Beispielen gehen wir wieder davon aus, dass wir die Grundrechnu
+ngsarten und ihre Eigenschaften kennen.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset CommandInset label
+LatexCommand label
+name "it:i1"
+
+\end_inset
+
+ Für 
+\begin_inset Formula $n\in\N_{0}$
+\end_inset
+
+ ist 
+\begin_inset Formula $n!$
+\end_inset
+
+ definiert durch 
+\begin_inset Formula $0!=1$
+\end_inset
+
+ und 
+\begin_inset Formula $(n+1)!=n!\cdot(n+1)$
+\end_inset
+
+ für alle 
+\begin_inset Formula $n\in\N_{0}$
+\end_inset
+
+.
+ Vervollständigen Sie den folgenden Induktionsbeweis dafür, dass für alle
+ 
+\begin_inset Formula $n\in\N$
+\end_inset
+
+ gilt, dass 
+\begin_inset Formula $n!\ge2^{n-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang german
+Wir beweisen durch vollständige Induktion, dass 
+\begin_inset Formula 
+\[
+\forall n\in\N\,:\,n!\ge2^{n-1}
+\]
+
+\end_inset
+
+gilt.
+ Sei 
+\begin_inset Formula $A(n)$
+\end_inset
+
+ die Aussageform 
+\begin_inset Formula $n!\ge2^{n-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\lang german
+Induktionsanfang:
+\emph default
+ Wir zeigen 
+\begin_inset Formula $A(1)$
+\end_inset
+
+: 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+7cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+8cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\lang german
+Induktionsschritt:
+\emph default
+ Wir zeigen 
+\begin_inset Formula 
+\[
+\forall n\in\N\,:\,A(n)\Rightarrow A(n+1).
+\]
+
+\end_inset
+
+Sei dazu 
+\begin_inset Formula $n\in\N$
+\end_inset
+
+.
+ Wir nehmen nun an, dass 
+\begin_inset Formula $A(n)$
+\end_inset
+
+ gilt, also dass 
+\begin_inset Formula 
+\[
+n!\ge2^{n-1}.
+\]
+
+\end_inset
+
+Das ist die 
+\emph on
+Induktionsannahme
+\emph default
+.
+ Die 
+\emph on
+Induktionsbehauptung
+\emph default
+ ist, dass 
+\begin_inset Formula $A(n+1)$
+\end_inset
+
+ gilt, also dass 
+\begin_inset Formula 
+\[
+(n+1)!\ge\strich{3cm}.
+\]
+
+\end_inset
+
+Um die Induktionsbehauptung zu zeigen, berechnen wir 
+\begin_inset Formula 
+\[
+(n+1)!=n!\cdot(n+1).
+\]
+
+\end_inset
+
+Wegen 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+strich{
+\end_layout
+
+\end_inset
+
+4cm
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ gilt 
+\begin_inset Formula 
+\[
+n!\cdot(n+1)\ge\strich{3cm}.
+\]
+
+\end_inset
+
+Es gilt daher insgesamt 
+\begin_inset Formula $\strich{3cm}\ge2^{n-1}\cdot(n+1)\ge\strich{2cm}\cdot2\ge\strich{4cm}$
+\end_inset
+
+.
+ Folglich gilt die Induktionsbehauptung.
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Somit ist der Induktionsbeweis gelungen; es gilt also 
+\begin_inset Formula 
+\[
+\strich{6cm}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Sei 
+\begin_inset Formula $x\in\R$
+\end_inset
+
+ mit 
+\begin_inset Formula $x\ge-1$
+\end_inset
+
+.
+ Zeigen Sie durch vollständige Induktion, dass für alle 
+\begin_inset Formula $n\in\N_{0}$
+\end_inset
+
+ gilt, dass 
+\begin_inset Formula $(1+x)^{n}\ge1+nx$
+\end_inset
+
+.
+ Gehen Sie dazu so vor: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+Geben Sie eine Aussageform 
+\begin_inset Formula $A(n)$
+\end_inset
+
+ an, sodass die zu beweisende Aussage die Form 
+\begin_inset Formula $\forall n\in\N_{0}:A(n)$
+\end_inset
+
+ hat.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Strukturieren Sie Ihren Induktionsbeweis genauso wie den Beweis aus Beispiel
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "it:i1"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+An einer Stelle müssen Sie verwenden, dass 
+\begin_inset Formula $1+nx+x+nx^{2}\ge1+(n+1)x$
+\end_inset
+
+ gilt.
+ Warum gilt das? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang german
+Zeigen Sie durch vollständige Induktion, dass für alls 
+\begin_inset Formula $n\in\N$
+\end_inset
+
+ gilt, dass 
+\begin_inset Formula 
+\[
+\sum_{i=1}^{n}(2i-1)=n^{2}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Seien 
+\begin_inset Formula $a,b\in\Z$
+\end_inset
+
+ mit 
+\begin_inset Formula $a\neq b$
+\end_inset
+
+.
+ Zeigen Sie 
+\begin_inset Formula 
+\[
+\forall n\in\N\,\exists q\in\Z\,:\,a^{n}-b^{n}=q\cdot(a-b)
+\]
+
+\end_inset
+
+durch vollständige Induktion.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+Geben Sie dazu zuerst eine Aussageform 
+\begin_inset Formula $A(n)$
+\end_inset
+
+ an, für die Sie 
+\begin_inset Formula $\forall n\in\N\,:\,A(n)$
+\end_inset
+
+ beweisen wollen! 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+Benützen Sie den Hinweis 
+\begin_inset Formula 
+\[
+a^{n+1}-b^{n+1}=a(a^{n}-b^{n})+b^{n}(a-b).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+Die hier bewiesene Aussage sagt also, dass es ein 
+\begin_inset Formula $q(2)$
+\end_inset
+
+ mit 
+\begin_inset Formula $a^{2}-b^{2}=q(2)\cdot(a-b)$
+\end_inset
+
+, ein 
+\begin_inset Formula $q(3)$
+\end_inset
+
+ mit 
+\begin_inset Formula $a^{3}-b^{3}=q(3)\cdot(a-b)$
+\end_inset
+
+, \SpecialChar ldots
+gibt.
+ Können Sie aus Ihrem Induktionsbeweis eine Rekursion für 
+\begin_inset Formula $q(n)$
+\end_inset
+
+ gewinnen, also eine Aussage der Form 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gf{
+\end_layout
+
+\end_inset
+
+für alle 
+\begin_inset Formula $n\in\N$
+\end_inset
+
+ gilt 
+\begin_inset Formula $q(n+1)=F(q(n),a,b,n)$
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+
+\lang german
+In den folgenden beiden Beispielen beweisen wir einige grundlegende Eigenschafte
+n der Teilbarkeitsrelation.
+ Zeigen Sie in den folgenden Beispielen jeweils, dass die angeführte Implikation
+ für alle 
+\begin_inset Formula $x,y,z\in\Z$
+\end_inset
+
+ gilt.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $(x\mid y\text{ und }x\mid z)\Rightarrow x\mid(y+z)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $x\mid y\Rightarrow x\mid zy$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $(x\mid y\text{ und }y\mid z)\Rightarrow x\mid z$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $(x\mid y\text{ und }y\mid x)\Rightarrow(x=y\text{ oder }x=-y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $(x\mid y\text{ und }z\mid x\text{ und }z\mid y\text{ und }z\neq0)\Rightarrow\frac{x}{z}\mid\frac{y}{z}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang german
+\begin_inset Formula $x\mid y\Rightarrow zx\mid zy$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
 6.
  Übungsblatt
 \end_layout
