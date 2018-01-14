@@ -1801,8 +1801,6 @@ dass
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Wir untersuchen in den ersten beiden Beispielen die auf Peano zurückgehende
  Definition der Addition: für jedes 
 \begin_inset Formula $m\in\N_{0}$
@@ -1836,8 +1834,6 @@ Darauf aufbauend definieren wir
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 \begin_inset ERT
 status collapsed
 
@@ -1856,8 +1852,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 \begin_inset ERT
 status open
 
@@ -1874,8 +1868,6 @@ setcounter{enumi}{31}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Wir benützen diese rekursive Definition, um 
 \begin_inset Formula $0^{++}+0^{+++}$
 \end_inset
@@ -1911,8 +1903,6 @@ Welche Addition haben wir dadurch ausgerechnet?
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Wir beweisen nun die Assoziativität der Addition, also dass für alle 
 \begin_inset Formula $x,y,z\in\N_{0}$
 \end_inset
@@ -1935,8 +1925,6 @@ die Eigenschaften
 
 \begin_deeper
 \begin_layout Standard
-
-\lang german
 \begin_inset ERT
 status collapsed
 
@@ -1953,8 +1941,6 @@ Roman{enumii}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $0\in S$
 \end_inset
 
@@ -1962,8 +1948,6 @@ Roman{enumii}
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $\forall z\in\N_{0}\,:\,z\in S\Rightarrow z^{+}\in S$
 \end_inset
 
@@ -1971,15 +1955,11 @@ Roman{enumii}
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 erfüllt.
  
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Verwenden Sie die Definition der Addition, um 
 \begin_inset Formula $(x+y)+0$
 \end_inset
@@ -1997,8 +1977,6 @@ Verwenden Sie die Definition der Addition, um
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Zeigen Sie 
 \begin_inset Formula $\forall z\in\N_{0}\,:\,z\in S\Rightarrow z^{+}\in S$
 \end_inset
@@ -2165,8 +2143,6 @@ Somit gilt
 
 \begin_deeper
 \begin_layout Standard
-
-\lang german
 Da die Menge 
 \begin_inset Formula $S$
 \end_inset
@@ -2245,8 +2221,6 @@ status collapsed
 
 \end_deeper
 \begin_layout Standard
-
-\lang german
 In den folgenden Beispielen gehen wir wieder davon aus, dass wir die Grundrechnu
 ngsarten und ihre Eigenschaften kennen.
  
@@ -2254,8 +2228,6 @@ ngsarten und ihre Eigenschaften kennen.
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset CommandInset label
 LatexCommand label
 name "it:i1"
@@ -2297,8 +2269,6 @@ name "it:i1"
 
 \begin_deeper
 \begin_layout Standard
-
-\lang german
 Wir beweisen durch vollständige Induktion, dass 
 \begin_inset Formula 
 \[
@@ -2322,7 +2292,6 @@ gilt.
 \begin_layout Standard
 
 \emph on
-\lang german
 Induktionsanfang:
 \emph default
  Wir zeigen 
@@ -2387,7 +2356,6 @@ status collapsed
 \begin_layout Standard
 
 \emph on
-\lang german
 Induktionsschritt:
 \emph default
  Wir zeigen 
@@ -2485,8 +2453,6 @@ Es gilt daher insgesamt
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Somit ist der Induktionsbeweis gelungen; es gilt also 
 \begin_inset Formula 
 \[
@@ -2500,8 +2466,6 @@ Somit ist der Induktionsbeweis gelungen; es gilt also
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Sei 
 \begin_inset Formula $x\in\R$
 \end_inset
@@ -2525,8 +2489,6 @@ Sei
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 Geben Sie eine Aussageform 
 \begin_inset Formula $A(n)$
 \end_inset
@@ -2540,8 +2502,6 @@ Geben Sie eine Aussageform
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Strukturieren Sie Ihren Induktionsbeweis genauso wie den Beweis aus Beispiel
  
 \begin_inset CommandInset ref
@@ -2555,8 +2515,6 @@ reference "it:i1"
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 An einer Stelle müssen Sie verwenden, dass 
 \begin_inset Formula $1+nx+x+nx^{2}\ge1+(n+1)x$
 \end_inset
@@ -2567,8 +2525,6 @@ An einer Stelle müssen Sie verwenden, dass
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang german
 Zeigen Sie durch vollständige Induktion, dass für alls 
 \begin_inset Formula $n\in\N$
 \end_inset
@@ -2585,8 +2541,6 @@ Zeigen Sie durch vollständige Induktion, dass für alls
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Seien 
 \begin_inset Formula $a,b\in\Z$
 \end_inset
@@ -2610,8 +2564,6 @@ durch vollständige Induktion.
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 Geben Sie dazu zuerst eine Aussageform 
 \begin_inset Formula $A(n)$
 \end_inset
@@ -2624,8 +2576,6 @@ Geben Sie dazu zuerst eine Aussageform
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 Benützen Sie den Hinweis 
 \begin_inset Formula 
 \[
@@ -2638,8 +2588,6 @@ a^{n+1}-b^{n+1}=a(a^{n}-b^{n})+b^{n}(a-b).
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 Die hier bewiesene Aussage sagt also, dass es ein 
 \begin_inset Formula $q(2)$
 \end_inset
@@ -2698,8 +2646,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
-\lang german
 In den folgenden beiden Beispielen beweisen wir einige grundlegende Eigenschafte
 n der Teilbarkeitsrelation.
  Zeigen Sie in den folgenden Beispielen jeweils, dass die angeführte Implikation
@@ -2718,8 +2664,6 @@ n der Teilbarkeitsrelation.
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $(x\mid y\text{ und }x\mid z)\Rightarrow x\mid(y+z)$
 \end_inset
 
@@ -2728,8 +2672,6 @@ n der Teilbarkeitsrelation.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $x\mid y\Rightarrow x\mid zy$
 \end_inset
 
@@ -2738,8 +2680,6 @@ n der Teilbarkeitsrelation.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $(x\mid y\text{ und }y\mid z)\Rightarrow x\mid z$
 \end_inset
 
@@ -2754,8 +2694,6 @@ n der Teilbarkeitsrelation.
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $(x\mid y\text{ und }y\mid x)\Rightarrow(x=y\text{ oder }x=-y)$
 \end_inset
 
@@ -2764,8 +2702,6 @@ n der Teilbarkeitsrelation.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $(x\mid y\text{ und }z\mid x\text{ und }z\mid y\text{ und }z\neq0)\Rightarrow\frac{x}{z}\mid\frac{y}{z}$
 \end_inset
 
@@ -2774,8 +2710,6 @@ n der Teilbarkeitsrelation.
 \end_layout
 
 \begin_layout Enumerate
-
-\lang german
 \begin_inset Formula $x\mid y\Rightarrow zx\mid zy$
 \end_inset
 
