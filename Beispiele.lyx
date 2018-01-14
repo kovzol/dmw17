@@ -1833,41 +1833,19 @@ Darauf aufbauend definieren wir
 .
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-% [ref={}]
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Enumerate
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-
+[32.]
 \backslash
-setcounter{enumi}{31}
+setcounter{enumi}{32}
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Enumerate
 Wir benützen diese rekursive Definition, um 
 \begin_inset Formula $0^{++}+0^{+++}$
 \end_inset
