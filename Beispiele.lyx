@@ -47,7 +47,7 @@
 \renewcommand{\NG}[2]{\mbox{}_{#1} {#2}} 
 \newcommand{\mpol}[3]{\hat{#1}}
 \newcommand{\Knn}{K^{n \times n}}
-
+\newcommand{\strich}[1]{\rule{#1}{0.2mm}}
 \usepackage{graphicx}
 
 
