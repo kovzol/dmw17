@@ -16,6 +16,7 @@
 \usepackage{siunitx}
 \usepackage{versions}
 \usepackage{enumitem}
+\usepackage{mathtools}
 \excludeversion{solution}
 \addtolength{\topmargin}{-30pt} 
 \addtolength{\textheight}{-1cm}
