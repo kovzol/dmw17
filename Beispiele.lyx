@@ -2953,5 +2953,237 @@ Sei
  (Hinweis: Verwenden Sie die Formel aus dem letzten Beispiel.) 
 \end_layout
 
+\begin_layout Subsection*
+10.
+ Übungsblatt
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[72.]
+\backslash
+setcounter{enumi}{72}
+\end_layout
+
+\end_inset
+
+
+\lang english
+Sei 
+\begin_inset Formula $\rho$
+\end_inset
+
+ eine Äquivalenzrelation auf einer nichtleeren Menge 
+\begin_inset Formula $A$
+\end_inset
+
+, und seien 
+\begin_inset Formula $a,b\in A$
+\end_inset
+
+.
+ Zeigen Sie, dass folgende Aussagen äquivalent sind:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang english
+\begin_inset Formula $(a,b)\in\rho$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset Formula $[a]_{\rho}=[b]_{\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset Formula $a\in[b]_{\rho}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+\begin_inset Formula $[a]_{p}\cap[b]_{\rho}\neq\emptyset$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang english
+Geben Sie ein Beispiel für eine Äquivalenzrelation auf 
+\begin_inset Formula $A\coloneqq\{2,3,4,5\}$
+\end_inset
+
+ an.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Geben Sie die Relation in der Form 
+\begin_inset Formula $\rho=\{...\}$
+\end_inset
+
+ an!
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Geben Sie die Permutation 
+\begin_inset Formula $\mathcal{P}$
+\end_inset
+
+ der Menge 
+\begin_inset Formula $M=\{1,2,3\}$
+\end_inset
+
+ an, die von der Äquivalenzrelation 
+\begin_inset Formula $\alpha=\{(1,1),(2,2),(3,3),(1,3),(3,1)\}$
+\end_inset
+
+ induziert wird.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Geben Sie die Äquivalenzrelation 
+\begin_inset Formula $\beta$
+\end_inset
+
+ auf 
+\begin_inset Formula $M=\{1,2,3,4\}$
+\end_inset
+
+ an, die die Partition 
+\begin_inset Formula $\mathcal{P}=\{\{1\},\{2,4\},\{3\}\}$
+\end_inset
+
+ induziert.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Sei 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+.
+ Wir definieren die Relation 
+\begin_inset Formula $\rho_{n}\coloneqq\{(a,b)\in\mathbb{Z\times\mathbb{Z}\colon}n|(a-b)\}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Zeigen Sie, dass 
+\begin_inset Formula $\rho_{n}$
+\end_inset
+
+ eine Äquivalenzrelation ist.
+ Bestimmen Sie die Menge 
+\begin_inset Formula $[0]_{\rho n}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Wir definieren folgende Relation auf 
+\begin_inset Formula $\mathbb{R}^{2}\times\mathbb{R}^{2}$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\rho_{n}\coloneqq\{(((x_{1},x_{2}),(y_{1},y_{2})),((u_{1},u_{2}),(v_{1},v_{2})))\in(\mathbb{R}^{2}\times\mathbb{R}^{2})\times(\mathbb{R}^{2}\times\mathbb{R}^{2}):(y_{1}-x_{1},y_{2}-x_{2})=(v_{1}-u_{1},v_{2}-u_{2})\}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Zeigen Sie, dass 
+\begin_inset Formula $\rho$
+\end_inset
+
+ eine Äquivalenzrelation ist.
+ Was bedeutet äquivalent sein hier geometrisch?
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Wir definieren folgende Relation auf 
+\begin_inset Formula $Q=\mathbb{Z\times\mathbb{Z}\setminus}\{0\},\sigma\coloneqq\{((a,b),(c,d))\in Q\times Q:(ad=bc)\}$
+\end_inset
+
+.
+ Zeigen Sie, dass 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ eine Äquivalenzrelation ist.
+ Was bedeutet hier äquivalent sein? (Hinweis: betrachten Sie die Paare 
+\begin_inset Formula $(a,b)$
+\end_inset
+
+ und 
+\begin_inset Formula $(c,d)$
+\end_inset
+
+ als Brüche 
+\begin_inset Formula $\frac{a}{b}$
+\end_inset
+
+ und 
+\begin_inset Formula $\frac{c}{d}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang english
+Wir definieren folgende Relation auf 
+\begin_inset Formula $\mathbb{N},\rho\coloneqq\{(a,b)\in\mathbb{N}\times\mathbb{N}:a|b\}$
+\end_inset
+
+.
+ Man zeige 
+\begin_inset Formula $\rho$
+\end_inset
+
+ ist eine Ordnungsrelation.
+\end_layout
+
 \end_body
 \end_document
