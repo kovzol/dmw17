@@ -2972,8 +2972,6 @@ setcounter{enumi}{72}
 
 \end_inset
 
-
-\lang english
 Sei 
 \begin_inset Formula $\rho$
 \end_inset
@@ -2992,8 +2990,6 @@ Sei
 
 \begin_deeper
 \begin_layout Enumerate
-
-\lang english
 \begin_inset Formula $(a,b)\in\rho$
 \end_inset
 
@@ -3001,8 +2997,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 \begin_inset Formula $[a]_{\rho}=[b]_{\rho}$
 \end_inset
 
@@ -3010,8 +3004,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 \begin_inset Formula $a\in[b]_{\rho}$
 \end_inset
 
@@ -3019,8 +3011,6 @@ Sei
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 \begin_inset Formula $[a]_{p}\cap[b]_{\rho}\neq\emptyset$
 \end_inset
 
@@ -3029,8 +3019,6 @@ Sei
 
 \end_deeper
 \begin_layout Enumerate
-
-\lang english
 Geben Sie ein Beispiel für eine Äquivalenzrelation auf 
 \begin_inset Formula $A\coloneqq\{2,3,4,5\}$
 \end_inset
@@ -3048,8 +3036,6 @@ Geben Sie die Relation in der Form
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Geben Sie die Permutation 
 \begin_inset Formula $\mathcal{P}$
 \end_inset
@@ -3066,8 +3052,6 @@ Geben Sie die Permutation
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Geben Sie die Äquivalenzrelation 
 \begin_inset Formula $\beta$
 \end_inset
@@ -3084,8 +3068,6 @@ Geben Sie die Äquivalenzrelation
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Sei 
 \begin_inset Formula $n\in\mathbb{N}$
 \end_inset
@@ -3113,8 +3095,6 @@ Zeigen Sie, dass
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Wir definieren folgende Relation auf 
 \begin_inset Formula $\mathbb{R}^{2}\times\mathbb{R}^{2}$
 \end_inset
@@ -3140,8 +3120,6 @@ Zeigen Sie, dass
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Wir definieren folgende Relation auf 
 \begin_inset Formula $Q=\mathbb{Z\times\mathbb{Z}\setminus}\{0\},\sigma\coloneqq\{((a,b),(c,d))\in Q\times Q:(ad=bc)\}$
 \end_inset
@@ -3172,8 +3150,6 @@ Wir definieren folgende Relation auf
 \end_layout
 
 \begin_layout Enumerate
-
-\lang english
 Wir definieren folgende Relation auf 
 \begin_inset Formula $\mathbb{N},\rho\coloneqq\{(a,b)\in\mathbb{N}\times\mathbb{N}:a|b\}$
 \end_inset
