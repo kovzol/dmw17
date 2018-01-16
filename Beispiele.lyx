@@ -2954,6 +2954,332 @@ Sei
  (Hinweis: Verwenden Sie die Formel aus dem letzten Beispiel.) 
 \end_layout
 
+\begin_layout Subsection
+Übungsblatt 8
+\end_layout
+
+\begin_layout Enumerate
+Sei D ein Dreieck.
+ Geben SIe für jede der folgenden vier Bedingungen an, ob die Bedingung
+ hinreichend dafür ist, dass das Dreieck D rechtwinkelig ist.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+D ist gleichseitig-
+\end_layout
+
+\begin_layout Enumerate
+Die Seitenlängen 
+\begin_inset Formula $a,b$
+\end_inset
+
+ und 
+\begin_inset Formula $c$
+\end_inset
+
+ im Dreieck D sind 
+\begin_inset Formula $a=3,b=4$
+\end_inset
+
+ und 
+\begin_inset Formula $c=5.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Alle Winkel in D sind kleiner als 120°.
+\end_layout
+
+\begin_layout Enumerate
+D ist rechtwinkelig.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $A,B,C$
+\end_inset
+
+ Mengen.
+ Zeigen Sie, dass 
+\begin_inset Formula $B\cap C\subseteq(B\setminus A)\cup(A\cap C)$
+\end_inset
+
+gilt.
+ Formulieren Sie dazu einen Beweis, der mit
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+Sei 
+\begin_inset Formula $x\epsilon B\cap C$
+\end_inset
+
+.
+ Zu zeigen ist, dass ...
+\end_layout
+
+\begin_layout Standard
+beginnt.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\noindent
+Welche der folgenden Relationen sind Funktionen von 
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+nach 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+? Begründen Sie Ihre Antwort und geben Sie jene Relationen, die Funktionen
+ sind, auch in der Form
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\noindent
+\align center
+...
+ : 
+\begin_inset Formula $\mathbb{N}\longrightarrow\mathbb{R}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x\longrightarrow...$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+an.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f=\{(x^{3},x)\mid x\epsilon\mathbb{R}\}\cap(\mathbb{N}\times\mathbb{R}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $g=\{((x-1)(x-2),x)\mid x\epsilon\mathbb{R}\}\cap(\mathbb{N}\times\mathbb{R}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $h=\{(a,b)\epsilon\mathbb{N}\times\mathbb{R}\mid b=\frac{a}{3}\}.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Sei 
+\begin_inset Formula $A=\{1,2,3\}$
+\end_inset
+
+.
+ Man finde jeweils eine Menge 
+\begin_inset Formula $B$
+\end_inset
+
+ und eine Funktion 
+\begin_inset Formula $f:A\longrightarrow B$
+\end_inset
+
+, sodass die Funktion
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+injektiv ist, aber nicht surjektiv.
+\end_layout
+
+\begin_layout Enumerate
+surjektiv ist, aber nicht injektiv ist.
+\end_layout
+
+\begin_layout Enumerate
+bijektiv ist.
+\end_layout
+
+\begin_layout Enumerate
+Finden Sie die Umkehrfuntkion zu ihrem Beispiel in c).
+\end_layout
+
+\begin_layout Standard
+Stellen Sie die Funktion 
+\begin_inset Formula $f$
+\end_inset
+
+ durch ein Pfeildiagramm dar, und geben Sie die Funktion auch als Menge
+ an.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Entscheiden Sie, ob folgende Funktionen, injektiv, surjektiv bzw.
+ bijektiv sind.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $f_{1}:\mathbb{R}\rightarrow\{x~\epsilon\mathbb{~R}\mid x\geq0\},$
+\end_inset
+
+ 
+\begin_inset Formula $x$
+\end_inset
+
+
+\begin_inset Formula $\mapsto x\text{²}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f_{2}:[-1,$
+\end_inset
+
+
+\begin_inset Formula $10]\rightarrow[0,20],x\mapsto x+1.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f_{3}:\mathbb{R\setminus}\{-2\}\rightarrow\mathbb{R},x\mapsto\frac{x-3}{x+2}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Sei 
+\begin_inset Formula $T=[0,2].$
+\end_inset
+
+ Bestimmen Sie jeweils die Bildmenge von 
+\begin_inset Formula $T$
+\end_inset
+
+ und das Urbild von 
+\begin_inset Formula $T$
+\end_inset
+
+ unter der jeweiligen Funktion von a) und b).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Schränken Sie für die Funktionen aus dem letzten Beispiel die Definitionsmenge
+ bzw.
+ Zielmenge entsprechend ein, sodass Sie eine bijektive Funktion erhalten
+ und finden Sie dann jeweils die Umkehrfunktion.
+ Je 
+\begin_inset Quotes gld
+\end_inset
+
+größer
+\begin_inset Quotes grd
+\end_inset
+
+ die Definitionsmenge Ihrer Funktion ist, desto besser.
+\end_layout
+
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $A,B$
+\end_inset
+
+ Mengen, und sei 
+\begin_inset Formula $f$
+\end_inset
+
+ eine Funtkion von 
+\begin_inset Formula $A$
+\end_inset
+
+ nach 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Seien 
+\begin_inset Formula $C,$
+\end_inset
+
+ 
+\begin_inset Formula $D\subseteq A$
+\end_inset
+
+.
+ Finden Sie ein Beispiel, für das 
+\begin_inset Formula $f(C$
+\end_inset
+
+
+\begin_inset Formula $\cap D)\neq f(C)\cap f(D)$
+\end_inset
+
+ und 
+\begin_inset Formula $C\cap D\neq\emptyset$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Seien 
+\begin_inset Formula $A,B$
+\end_inset
+
+ Mengen, und sei 
+\begin_inset Formula $f$
+\end_inset
+
+ eine injektive Funktion von 
+\begin_inset Formula $A$
+\end_inset
+
+ nach 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Seien 
+\begin_inset Formula $C,D\subseteq A$
+\end_inset
+
+.
+ Zeigen Sie, dass dann 
+\begin_inset Formula $f[C]\cap f[D]\subseteq f[C\cap D]$
+\end_inset
+
+ gilt.
+ 
+\end_layout
+
 \begin_layout Subsection*
 10.
  Übungsblatt
