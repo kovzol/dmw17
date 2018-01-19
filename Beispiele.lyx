@@ -166,7 +166,7 @@ Diskrete Mathematik
 Die Beispiele
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 1.
 \begin_inset space ~
 \end_inset
@@ -1599,7 +1599,11 @@ Die Gleichung
 
 \end_deeper
 \begin_layout Subsection*
-4.Übungsblatt
+4.
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Enumerate
@@ -1798,7 +1802,10 @@ dass
 \end_deeper
 \begin_layout Subsection*
 5.
- Übungsblatt
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Standard
@@ -2636,12 +2643,6 @@ n der Teilbarkeitsrelation.
  
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
-
-\end_layout
-
-\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $(x\mid y\text{ und }x\mid z)\Rightarrow x\mid(y+z)$
 \end_inset
@@ -2666,12 +2667,6 @@ n der Teilbarkeitsrelation.
  
 \end_layout
 
-\end_deeper
-\begin_layout Enumerate
-
-\end_layout
-
-\begin_deeper
 \begin_layout Enumerate
 \begin_inset Formula $(x\mid y\text{ und }y\mid x)\Rightarrow(x=y\text{ oder }x=-y)$
 \end_inset
@@ -2699,7 +2694,10 @@ n der Teilbarkeitsrelation.
 \end_deeper
 \begin_layout Subsection*
 6.
- Übungsblatt
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Enumerate
@@ -2954,11 +2952,27 @@ Sei
  (Hinweis: Verwenden Sie die Formel aus dem letzten Beispiel.) 
 \end_layout
 
-\begin_layout Subsection
-Übungsblatt 8
+\begin_layout Subsection*
+8.
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[56.]
+\backslash
+setcounter{enumi}{56}
+\end_layout
+
+\end_inset
+
 Sei D ein Dreieck.
  Geben SIe für jede der folgenden vier Bedingungen an, ob die Bedingung
  hinreichend dafür ist, dass das Dreieck D rechtwinkelig ist.
@@ -3282,7 +3296,10 @@ Seien
 
 \begin_layout Subsection*
 10.
- Übungsblatt
+\begin_inset space ~
+\end_inset
+
+Übungsblatt
 \end_layout
 
 \begin_layout Enumerate
