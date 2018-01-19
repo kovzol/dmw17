@@ -2973,14 +2973,26 @@ setcounter{enumi}{56}
 
 \end_inset
 
-Sei D ein Dreieck.
- Geben SIe für jede der folgenden vier Bedingungen an, ob die Bedingung
- hinreichend dafür ist, dass das Dreieck D rechtwinkelig ist.
+Sei 
+\emph on
+D
+\emph default
+ ein Dreieck.
+ Geben Sie für jede der folgenden vier Bedingungen an, ob die Bedingung
+ hinreichend dafür ist, dass das Dreieck 
+\emph on
+D
+\emph default
+ rechtwinkelig ist.
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-D ist gleichseitig-
+
+\emph on
+D
+\emph default
+ ist gleichseitig.
 \end_layout
 
 \begin_layout Enumerate
@@ -2992,7 +3004,11 @@ Die Seitenlängen
 \begin_inset Formula $c$
 \end_inset
 
- im Dreieck D sind 
+ im Dreieck 
+\emph on
+D
+\emph default
+ sind 
 \begin_inset Formula $a=3,b=4$
 \end_inset
 
@@ -3004,11 +3020,19 @@ Die Seitenlängen
 \end_layout
 
 \begin_layout Enumerate
-Alle Winkel in D sind kleiner als 120°.
+Alle Winkel in 
+\emph on
+D
+\emph default
+ sind kleiner als 120°.
 \end_layout
 
 \begin_layout Enumerate
-D ist rechtwinkelig.
+
+\emph on
+D
+\emph default
+ ist rechtwinkelig.
  
 \end_layout
 
@@ -3031,11 +3055,15 @@ gilt.
 \begin_layout Standard
 \align center
 Sei 
-\begin_inset Formula $x\epsilon B\cap C$
+\begin_inset Formula $x\in B\cap C$
 \end_inset
 
 .
- Zu zeigen ist, dass ...
+ Zu zeigen ist, dass 
+\begin_inset Formula $\ldots$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3049,7 +3077,7 @@ Welche der folgenden Relationen sind Funktionen von
 \begin_inset Formula $\mathbb{N}$
 \end_inset
 
-nach 
+ nach 
 \begin_inset Formula $\mathbb{R}$
 \end_inset
 
@@ -3061,9 +3089,7 @@ nach
 \begin_layout Standard
 \noindent
 \align center
-...
- : 
-\begin_inset Formula $\mathbb{N}\longrightarrow\mathbb{R}$
+\begin_inset Formula $\ldots:\mathbb{N}\longrightarrow\mathbb{R}$
 \end_inset
 
 
@@ -3071,7 +3097,7 @@ nach
 \end_inset
 
 
-\begin_inset Formula $x\longrightarrow...$
+\begin_inset Formula $x\longrightarrow\ldots$
 \end_inset
 
 
@@ -3084,21 +3110,21 @@ an.
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $f=\{(x^{3},x)\mid x\epsilon\mathbb{R}\}\cap(\mathbb{N}\times\mathbb{R}).$
+\begin_inset Formula $f=\{(x^{3},x)\mid x\in\mathbb{R}\}\cap(\mathbb{N}\times\mathbb{R}).$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $g=\{((x-1)(x-2),x)\mid x\epsilon\mathbb{R}\}\cap(\mathbb{N}\times\mathbb{R}).$
+\begin_inset Formula $g=\{((x-1)(x-2),x)\mid x\in\mathbb{R}\}\cap(\mathbb{N}\times\mathbb{R}).$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $h=\{(a,b)\epsilon\mathbb{N}\times\mathbb{R}\mid b=\frac{a}{3}\}.$
+\begin_inset Formula $h=\{(a,b)\in\mathbb{N}\times\mathbb{R}\mid b=\frac{a}{3}\}.$
 \end_inset
 
 
@@ -3156,7 +3182,7 @@ Entscheiden Sie, ob folgende Funktionen, injektiv, surjektiv bzw.
 
 \begin_deeper
 \begin_layout Enumerate
-\begin_inset Formula $f_{1}:\mathbb{R}\rightarrow\{x~\epsilon\mathbb{~R}\mid x\geq0\},$
+\begin_inset Formula $f_{1}:\mathbb{R}\rightarrow\{x~\in\mathbb{~R}\mid x\geq0\},$
 \end_inset
 
  
@@ -3164,7 +3190,7 @@ Entscheiden Sie, ob folgende Funktionen, injektiv, surjektiv bzw.
 \end_inset
 
 
-\begin_inset Formula $\mapsto x\text{²}.$
+\begin_inset Formula $\mapsto x^{2}.$
 \end_inset
 
 
